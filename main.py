@@ -7,8 +7,8 @@ import matplotlib
 import torch.optim as optim
 from datetime import datetime
 import matplotlib.pyplot as plt
-from env.bufferenv import BuffersEnv
-from env.states import Buffer_Fis
+from envs.bufferenv import BuffersEnv
+from envs.states import Buffer_Fis
 from agents.memory import ExperienceBuffer
 from agents.dqn import CNNDQN
 from agents.agents import Agent
