@@ -8,6 +8,11 @@ np.random.seed(globalvars.GLOBAL_SEED)
 
 class Agent:
     def __init__(self, env, exp_buffer):
+        """
+
+        :param env:  Environment variables
+        :param exp_buffer: Experience buffer
+        """
         self.env = env
         self.exp_buffer = exp_buffer
         self.state = None

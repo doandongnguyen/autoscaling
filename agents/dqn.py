@@ -97,7 +97,8 @@ class DuelingDQN(nn.Module):
         return self.forward(x)
 
 
-# Deep DQN including the Convolution 1D layers
+# Deep DQN with Dueling, Disributional DQN and Noisy Dense
+# it includes the Convolution 1D layers, Max Pooling layers
 class CNNDQN(nn.Module):
     def __init__(self, input_shape, n_actions, n_hiddens=32,
                  Vmin=-10, Vmax=10, n_atoms=51):

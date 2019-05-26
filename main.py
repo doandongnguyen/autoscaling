@@ -8,11 +8,11 @@ import torch.optim as optim
 from datetime import datetime
 import matplotlib.pyplot as plt
 from envs.bufferenv import BuffersEnv
-from envs.states import Buffer_Fis
 from agents.memory import ExperienceBuffer
 from agents.dqn import CNNDQN
 from agents.agents import Agent
 from agents.utils import calc_loss_probs
+from BufferFIS import Buffer_Fis
 import globalvars
 
 

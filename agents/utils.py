@@ -49,6 +49,7 @@ def _distr_projection(next_distr, rewards, dones, Vmin, Vmax, n_atoms, gamma):
     return proj_distr
 
 
+# Loss function for DQN
 def calc_loss_dqn(batch, net, tgt_net, gamma, device="cpu"):
     states, actions, rewards, dones, next_states = batch
 
@@ -66,6 +67,7 @@ def calc_loss_dqn(batch, net, tgt_net, gamma, device="cpu"):
     return nn.MSELoss()(state_action_values, expected_state_action_values)
 
 
+# Loss functions for Distributional DQN
 def calc_loss_probs(batch, net, tgt_net, gamma, device="cpu",
                     Vmin=-10, Vmax=10, N_ATOMS=51):
     states, actions, rewards, dones, next_states = batch
