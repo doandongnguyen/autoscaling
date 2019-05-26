@@ -1,6 +1,6 @@
 # Fuzzy Deep Reinforcement Learning
 
-Inspired by the recent variants in Deep RL, Fuzzy Deep RL use Fuzzy Logic as a data representation method and Deep Q-Network for autoscaling probleam
+Inspired by the recent variants in Deep RL, Fuzzy Deep RL use Fuzzy Logic as a data representation method and Deep Q-Network for autoscaling problem
 
 ### References:
 The used dataset from Clarknet Traces <ftp://ita.ee.lbl.gov/traces/>
