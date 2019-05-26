@@ -3,7 +3,7 @@
 Inspired by the recent variants in Deep RL, Fuzzy Deep RL use Fuzzy Logic as a data representation method and Deep Q-Network for autoscaling probleam
 
 ### References:
-The used dataset from [Clarknet Traces](ftp://ita.ee.lbl.gov/traces/)
+The used dataset from Clarknet Traces <ftp://ita.ee.lbl.gov/traces/>
 
 Simulation code refined from [Feedback Control for Computer Systems by Philipp K. Janert (O'Reilly Media)](https://github.com/oreillymedia/feedback_control_for_computer_systems)
 
