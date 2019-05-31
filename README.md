@@ -11,3 +11,4 @@ Fuzzy Q-Learning corrected from [FQL](https://github.com/seyedsaeidmasoumzadeh/F
 
 Deep QN architecture derived from [Hands-on Deep Reinforcement Learning, published by Packt](https://github.com/PacktPublishing/Deep-Reinforcement-Learning-Hands-On)
 
+For the use of fuzzy logic with DQN, please see [Fuzzy DQN](https://github.com/doandongnguyen/FuzzyDQN) and Fuzzy Q Learning [FQL](https://github.com/doandongnguyen/FQL-Fuzzy-Q-Learning)
